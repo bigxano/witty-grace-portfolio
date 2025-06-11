@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - WITTY-GRACE LEATHER WORKS</title>
+  <meta name="description" content="Learn more about WITTY-GRACE LEATHER WORKS, a business and brand owner.">
+  <meta name="keywords" content="WITTY-GRACE, business owner, brand, services, portfolio">
+
+  <!-- Favicons -->
+  <link href="{{asset('MyPortfolio/assets/img/logo.jpg')}}" rel="icon">
+  <link href="{{asset('MyPortfolio/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{asset('MyPortfolio/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('MyPortfolio/assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{asset('MyPortfolio/assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{asset('MyPortfolio/assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{asset('MyPortfolio/assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{asset('MyPortfolio/assets/css/main.css')}}" rel="stylesheet">
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top" role="banner">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="/" class="logo d-flex align-items-center" aria-label="Witty-Grace Leather Works Home">
+
+        <img src="MyPortfolio/assets/img/logo.jpg" alt="Witty-Grace Leather Works logo" />
+        <h1 class="sitename">WITTY-GRACE LEATHER WORKS</h1>
+      </a>
+      <nav id="navmenu" class="navmenu" aria-label="Main navigation">
+        <ul>
+          <li><a href="{{ route('/') }}">Home</a></li>
+          <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+          <li><a href="{{ route('services') }}">Services</a></li>
+          <li><a href="{{ route('contact') }}">Contact</a></li>
+          <li>
+            <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle light/dark mode">
+              <span class="theme-icon" aria-hidden="true">🌓</span>
+            </button>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Open navigation menu"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade-down">
+      <div class="container">
+        <h1>About</h1>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center align-items-center">
+          <div class="col-lg-4">
+
+            <img src="{{asset('MyPortfolio/assets/img/about.jpg')}}" class="img-fluid rounded shadow" alt="Witty-Grace Leather Works owner smiling" loading="lazy">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Business Owner & Brand Creator</h2>
+            <div class="container section-title" data-aos="fade-up">
+
+              <p>Welcome to <strong>Witty-Grace Leather Works</strong>, your ultimate destination for premium footwear that blends style, comfort, and quality. Since our establishment, we have been dedicated to offering a curated selection of shoes for every occasion, from casual wear to formal events. Our mission is to provide our customers with top-notch designs crafted from the finest materials, ensuring durability and unparalleled comfort. At Witty-Grace Leather Works, we believe that great footwear is the foundation of confidence and individuality.</p>
+              <p class="fst-italic py-3">
+                Passionate about innovation and creating impactful brands, Witty-Grace Leather Works is dedicated to delivering excellence.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Established:</strong> <span>2019</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:09024869007">09024869007</a>, <a href="tel:09030070824">09030070824</a></span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Asokoro, Abuja</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:wittygrace09@gmail.com">wittygrace09@gmail.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+              <p class="py-3">
+                With years of experience in entrepreneurship and brand development, Witty-Grace Leather Works continues to pave the way for innovative solutions and impactful collaborations.
+              </p>
+              <a href="{{ route('contact') }}" class="cta" aria-label="Contact Witty-Grace Leather Works">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">WITTY-GRACE LEATHER WORKS</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center" aria-label="Social media links">
+        <a href="https://twitter.com/wittygrace" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://facebook.com/wittygrace" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://instagram.com/wittygrace09" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/09024869007?text=Hello%21%20%F0%9F%91%8B%20Thank%20you%20for%20reaching%20out%20to%20Witty-Grace%20Leather%20Works.%20How%20can%20we%20assist%20you%20today%3F" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{asset('MyPortfolio/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('MyPortfolio/assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{asset('MyPortfolio/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{asset('MyPortfolio/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{asset('MyPortfolio/assets/js/main.js')}}"></script>
+  <script src="{{ asset('MyPortfolio/assets/js/theme-toggle.js') }}"></script>
+</body>
+
+</html>
